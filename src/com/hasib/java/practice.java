@@ -4,16 +4,17 @@ import java.util.Scanner;
 
 public class practice {
     public static void main(String[] args) {
-        String[] str = {"abc", "defg", "hijklmn", null, null, null};
-        String[] newArray = new String[str.length];
+        Scanner in = new Scanner(System.in);
 
-        for(int i=0; i<str.length; i++) {
-            if(str[i] != null && str[i].length() > 4) {
-                str[i] = null;
-            }
-        }
-        for(String x : str) {
-                System.out.print(x + " ");
+        int t = in.nextInt();
+
+        for (int i=0; i<t; i++) {
+            int a = in.nextInt();
+            int b = in.nextInt();
+
+            if (a%b == 0) System.out.println("0");
+            else if (a < b) System.out.println(b-a);
+            else System.out.println(b - (a%b));
         }
     }
 }
