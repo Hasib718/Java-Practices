@@ -1,7 +1,5 @@
 package com.hasib.java.basic;
 
-import com.hasib.java.advance.oop.inheritence.Inheritence;
-
 public class FiboUsingMemoization {
 
     public static long fibo[] = new long[100];
