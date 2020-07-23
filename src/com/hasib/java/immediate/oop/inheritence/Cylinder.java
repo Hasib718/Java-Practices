@@ -1,12 +1,19 @@
 package com.hasib.java.immediate.oop.inheritence;
 
-public class Cylinder extends Circle{
+/*
+ * Created by S M Al Hasib on 7/23/20, 11:43 PM
+ * Copyright (c) 2020 . All rights reserved.
+ * Last modified 7/23/20, 11:42 PM
+ */
+
+public class Cylinder extends Circle {
     double height;
 
-    public Cylinder(){
+    public Cylinder() {
         this.height = 1.0;
     }
-    public Cylinder(double radius, String color, double height){
+
+    public Cylinder(double radius, String color, double height) {
         super(radius, color);   //calling the contructor of it's parent class
         this.height = height;
     }

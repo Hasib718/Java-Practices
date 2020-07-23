@@ -2,8 +2,14 @@ package com.hasib.java.basic;
 
 import java.util.Scanner;
 
+/*
+ * Created by S M Al Hasib on 7/23/20, 11:43 PM
+ * Copyright (c) 2020 . All rights reserved.
+ * Last modified 7/23/20, 11:42 PM
+ */
+
 public class input1 {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Scanner scr = new Scanner(System.in);
         boolean okey = true;
 

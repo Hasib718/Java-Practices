@@ -7,6 +7,12 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.concurrent.*;
 
+/*
+ * Created by S M Al Hasib on 7/23/20, 11:43 PM
+ * Copyright (c) 2020 . All rights reserved.
+ * Last modified 6/23/20, 7:04 PM
+ */
+
 public class TextCopierApp {
     public static void main(String[] args) {
         TextCopier jugbd = new TextCopier("https://www.jugbd.org/");

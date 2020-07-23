@@ -1,5 +1,11 @@
 package com.hasib.java.advance.thread;
 
+/*
+ * Created by S M Al Hasib on 7/23/20, 11:43 PM
+ * Copyright (c) 2020 . All rights reserved.
+ * Last modified 6/23/20, 7:04 PM
+ */
+
 /**
  * This program is a example of "Race Condition", which occurs while
  * accessing shared reference from different threads. This problem also

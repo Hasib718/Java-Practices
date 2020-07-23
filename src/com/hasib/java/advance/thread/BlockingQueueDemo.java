@@ -5,6 +5,12 @@ import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingDeque;
 import java.util.concurrent.TimeUnit;
 
+/*
+ * Created by S M Al Hasib on 7/23/20, 11:43 PM
+ * Copyright (c) 2020 . All rights reserved.
+ * Last modified 6/23/20, 7:04 PM
+ */
+
 public class BlockingQueueDemo {
     private BlockingQueue<Integer> queue = new LinkedBlockingDeque<>(10);
 

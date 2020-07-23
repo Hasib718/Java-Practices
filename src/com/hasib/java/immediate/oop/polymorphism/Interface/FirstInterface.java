@@ -2,15 +2,22 @@ package com.hasib.java.immediate.oop.polymorphism.Interface;
 
 import java.util.Scanner;
 
-interface MyInterface{
+/*
+ * Created by S M Al Hasib on 7/23/20, 11:43 PM
+ * Copyright (c) 2020 . All rights reserved.
+ * Last modified 7/23/20, 11:42 PM
+ */
+
+interface MyInterface {
     void sayHello();  //here we are not adding public keyword, because javac compiler +
-                      //will automatically add it
+    //will automatically add it
 }
-interface MyAnotherInterface extends MyInterface{
+
+interface MyAnotherInterface extends MyInterface {
     void sayBye();
 }
 
-interface AgainInterface{
+interface AgainInterface {
     void setName(String name);
     String getName();
 }

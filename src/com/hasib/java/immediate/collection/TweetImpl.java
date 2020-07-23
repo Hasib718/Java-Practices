@@ -1,7 +1,14 @@
 package com.hasib.java.immediate.collection;
 
 import java.time.LocalDateTime;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
+
+/*
+ * Created by S M Al Hasib on 7/23/20, 11:43 PM
+ * Copyright (c) 2020 . All rights reserved.
+ * Last modified 7/23/20, 11:42 PM
+ */
 
 public class TweetImpl implements Twitter {
     private List<Tweet> list = new ArrayList<>();
@@ -29,8 +36,9 @@ public class TweetImpl implements Twitter {
 }
 
 interface Twitter {
-    public void addTweet(Tweet tweet);
-    public void printAllTweets();
+    void addTweet(Tweet tweet);
+
+    void printAllTweets();
 }
 
 class Tweet {

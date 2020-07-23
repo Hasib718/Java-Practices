@@ -2,6 +2,12 @@ package com.hasib.java.advance.thread;
 
 import java.util.concurrent.TimeUnit;
 
+/*
+ * Created by S M Al Hasib on 7/23/20, 11:43 PM
+ * Copyright (c) 2020 . All rights reserved.
+ * Last modified 6/23/20, 7:04 PM
+ */
+
 /**
  * Though @synchronized is useful, but it has a heavy cost to sustain.
  * Because of using @synchronized the program run a lot slower than usual.

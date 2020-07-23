@@ -4,6 +4,12 @@ import java.io.DataOutputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
+/*
+ * Created by S M Al Hasib on 7/23/20, 11:43 PM
+ * Copyright (c) 2020 . All rights reserved.
+ * Last modified 6/23/20, 7:04 PM
+ */
+
 public class WritingPrimitivesExample {
     public static void main(String[] args) {
         String destFileName = "F:\\myDir\\new_fuck.txt";

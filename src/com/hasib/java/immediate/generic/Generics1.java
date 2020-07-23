@@ -1,5 +1,11 @@
 package com.hasib.java.immediate.generic;
 
+/*
+ * Created by S M Al Hasib on 7/23/20, 11:43 PM
+ * Copyright (c) 2020 . All rights reserved.
+ * Last modified 6/23/20, 7:04 PM
+ */
+
 class Tuple<X, Y> {
     private X x;
     private Y y;

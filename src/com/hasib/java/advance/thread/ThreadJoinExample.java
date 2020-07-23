@@ -8,9 +8,15 @@ import java.net.URLConnection;
 import java.nio.file.Files;
 import java.nio.file.StandardCopyOption;
 
+/*
+ * Created by S M Al Hasib on 7/23/20, 11:43 PM
+ * Copyright (c) 2020 . All rights reserved.
+ * Last modified 7/23/20, 11:42 PM
+ */
+
 public class ThreadJoinExample {
     public static void main(String[] args)
-        throws InterruptedException {
+            throws InterruptedException {
         FileDownloader downloader1 = new FileDownloader("https://goo.gl/nqZJn4", "jugbd-meetup7_1.jpeg");
         FileDownloader downloader2 = new FileDownloader("https://goo.gl/UoSMMt", "jugbd-meetup7_2.jpeg");
 

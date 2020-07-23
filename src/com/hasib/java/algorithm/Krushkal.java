@@ -1,8 +1,12 @@
 package com.hasib.java.algorithm;
 
-import org.jetbrains.annotations.NotNull;
-
 import java.util.*;
+
+/*
+ * Created by S M Al Hasib on 7/23/20, 11:43 PM
+ * Copyright (c) 2020 . All rights reserved.
+ * Last modified 7/23/20, 11:42 PM
+ */
 
 public class Krushkal {
     public static void main(String[] args) {
@@ -10,8 +14,8 @@ public class Krushkal {
         List<Edge> edges = new ArrayList<Edge>();
 
         int n = scr.nextInt();
-        for (int i=0; i<14; i++) {
-            edges.add(new Edge(scr.nextInt(),scr.nextInt(), scr.nextInt()));
+        for (int i = 0; i < 14; i++) {
+            edges.add(new Edge(scr.nextInt(), scr.nextInt(), scr.nextInt()));
         }
 
         Collections.sort(edges, (a, b) -> a.w - b.w);
@@ -35,7 +39,7 @@ class Edge {
     public String toString() {
         return "("+ u +","+ v +","+ w +")";
     }
-};
+}
 
 class DisjointSet {
     Map<Integer, Integer> parent = new HashMap<>(), rnk = new HashMap<>();
@@ -86,4 +90,4 @@ class DisjointSet {
         }
         System.out.println("Minimum Cost" + cost);
     }
-};
+}

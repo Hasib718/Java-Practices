@@ -5,6 +5,12 @@ import java.time.format.DateTimeFormatter;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
+/*
+ * Created by S M Al Hasib on 7/23/20, 11:43 PM
+ * Copyright (c) 2020 . All rights reserved.
+ * Last modified 7/23/20, 11:42 PM
+ */
+
 /**
  * This is multi threading "Dead Lock" problem. This situation arise
  * because of circular dependency between threads.
@@ -13,7 +19,7 @@ import java.util.concurrent.TimeUnit;
 public class PhilosopherMain {
     public static void main(String[] args) {
         Fork[] forks = new Fork[5];
-        for (int i=0; i<forks.length; i++) {
+        for (int i = 0; i < forks.length; i++) {
             forks[i] = new Fork();
         }
 

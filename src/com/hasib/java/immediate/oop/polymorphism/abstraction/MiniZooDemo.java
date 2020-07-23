@@ -1,13 +1,19 @@
 package com.hasib.java.immediate.oop.polymorphism.abstraction;
 
-abstract class Animal{
+/*
+ * Created by S M Al Hasib on 7/23/20, 11:43 PM
+ * Copyright (c) 2020 . All rights reserved.
+ * Last modified 7/23/20, 11:42 PM
+ */
+
+abstract class Animal {
     private int legs;
 
-    public Animal(int legs){
+    public Animal(int legs) {
         this.legs = legs;
     }
 
-    public void sleep(){
+    public void sleep() {
         System.out.println(getClass().getSimpleName() +
                             " Sleeping.....Don't Disturb!");
     }

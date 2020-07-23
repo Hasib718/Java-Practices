@@ -4,6 +4,12 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+/*
+ * Created by S M Al Hasib on 7/23/20, 11:43 PM
+ * Copyright (c) 2020 . All rights reserved.
+ * Last modified 7/23/20, 11:42 PM
+ */
+
 public class Practice {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
@@ -12,7 +18,7 @@ public class Practice {
         int m = in.nextInt();
 
         int[][] mat = new int[n][m];
-        for (int i=0; i<n; i++) {
+        for (int i = 0; i < n; i++) {
             for (int j=0; j<m; j++) {
                 mat[i][j] = in.nextInt();
             }

@@ -2,6 +2,12 @@ package com.hasib.java.immediate.generic;
 
 import javafx.util.Pair;
 
+/*
+ * Created by S M Al Hasib on 7/23/20, 11:43 PM
+ * Copyright (c) 2020 . All rights reserved.
+ * Last modified 7/4/20, 10:37 PM
+ */
+
 class Generic<T> {
     private T obj;
 

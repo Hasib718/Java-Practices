@@ -1,8 +1,13 @@
 package com.hasib.java.immediate.collection;
 
-import java.util.Queue;
 import java.util.PriorityQueue;
-import java.lang.Comparable;
+import java.util.Queue;
+
+/*
+ * Created by S M Al Hasib on 7/23/20, 11:43 PM
+ * Copyright (c) 2020 . All rights reserved.
+ * Last modified 7/23/20, 11:42 PM
+ */
 
 public class PriorityQueueExample {
     public static void main(String[] args) {

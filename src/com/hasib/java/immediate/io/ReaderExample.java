@@ -4,6 +4,12 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.Reader;
 
+/*
+ * Created by S M Al Hasib on 7/23/20, 11:43 PM
+ * Copyright (c) 2020 . All rights reserved.
+ * Last modified 6/23/20, 7:04 PM
+ */
+
 public class ReaderExample {
     public static void main(String[] args) {
         Reader reader = null;

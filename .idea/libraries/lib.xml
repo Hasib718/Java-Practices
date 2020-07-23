@@ -1,14 +1,17 @@
 <component name="libraryTable">
   <library name="lib">
     <CLASSES>
-      <root url="file://C:/Program Files/Java/javafx-sdk-11.0.2/lib" />
-      <root url="jar://C:/Program Files/Java/json library/json-20190722.jar!/" />
+      <root url="file://$PROJECT_DIR$/lib/javafx-sdk-11.0.2/lib" />
+      <root url="jar://$PROJECT_DIR$/lib/json-20200518.jar!/" />
     </CLASSES>
     <JAVADOC />
+    <NATIVE>
+      <root url="file://$PROJECT_DIR$/lib/javafx-sdk-11.0.2/lib" />
+    </NATIVE>
     <SOURCES>
-      <root url="file://C:/Program Files/Java/javafx-sdk-11.0.2/lib" />
+      <root url="file://$PROJECT_DIR$/lib/javafx-sdk-11.0.2/lib" />
     </SOURCES>
-    <jarDirectory url="file://C:/Program Files/Java/javafx-sdk-11.0.2/lib" recursive="false" />
-    <jarDirectory url="file://C:/Program Files/Java/javafx-sdk-11.0.2/lib" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$PROJECT_DIR$/lib/javafx-sdk-11.0.2/lib" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/lib/javafx-sdk-11.0.2/lib" recursive="false" type="SOURCES" />
   </library>
 </component>

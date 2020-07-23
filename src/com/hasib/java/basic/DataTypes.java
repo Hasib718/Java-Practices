@@ -1,5 +1,11 @@
 package com.hasib.java.basic;
 
+/*
+ * Created by S M Al Hasib on 7/23/20, 11:43 PM
+ * Copyright (c) 2020 . All rights reserved.
+ * Last modified 7/23/20, 11:42 PM
+ */
+
 public class DataTypes {
     public static void main(String[] args) {
 //
@@ -29,11 +35,11 @@ public class DataTypes {
 //            System.out.println("This is true");
 //
         String jv = "        __                                \n"
-                +   "       |  |                               \n"
-                +   "       |  |  ____ ____    ________ ___    \n"
-                +   " __    |  |/  __ \' \\  \\  /  /   __\'  |\n"
-                +   "|  |___|  |  (__|  |\\  \\/  /\\  (__|  |  \n"
-                +   " \\_______/ \\_____\'_| \\ ___/  \\____ \'_|";
+                + "       |  |                               \n"
+                + "       |  |  ____ ____    ________ ___    \n"
+                + " __    |  |/  __ ' \\  \\  /  /   __'  |\n"
+                + "|  |___|  |  (__|  |\\  \\/  /\\  (__|  |  \n"
+                + " \\_______/ \\_____'_| \\ ___/  \\____ '_|";
 
         System.out.println(jv);
 //        String t = "asjlkfblkjasa"

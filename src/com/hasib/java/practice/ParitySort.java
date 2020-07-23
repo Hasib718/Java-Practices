@@ -2,6 +2,12 @@ package com.hasib.java.practice;
 
 import java.util.Arrays;
 
+/*
+ * Created by S M Al Hasib on 7/23/20, 11:43 PM
+ * Copyright (c) 2020 . All rights reserved.
+ * Last modified 6/23/20, 7:04 PM
+ */
+
 public class ParitySort {
     public static void main(String[] args) {
         int[] arr = {42, 15, 11, 17, 666, 555, 4};

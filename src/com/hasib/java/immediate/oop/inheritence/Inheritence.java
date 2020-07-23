@@ -1,6 +1,12 @@
 package com.hasib.java.immediate.oop.inheritence;
 
-import com.hasib.java.immediate.generic.*;
+import com.hasib.java.immediate.generic.DemoContainer;
+
+/*
+ * Created by S M Al Hasib on 7/23/20, 11:43 PM
+ * Copyright (c) 2020 . All rights reserved.
+ * Last modified 7/23/20, 11:42 PM
+ */
 
 public class Inheritence {
     public static void main(String[] args) {

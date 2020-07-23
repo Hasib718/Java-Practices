@@ -3,13 +3,19 @@ package com.hasib.java.immediate.nio;
 import java.nio.ByteBuffer;
 import java.util.Arrays;
 
+/*
+ * Created by S M Al Hasib on 7/23/20, 11:43 PM
+ * Copyright (c) 2020 . All rights reserved.
+ * Last modified 7/23/20, 11:42 PM
+ */
+
 public class BufferReadWrite {
     public static void main(String[] args) {
         ByteBuffer bb = ByteBuffer.allocate(8);
         System.out.println("Right After Creation : ");
         BufferReadWrite.printBuffer(bb);
 
-        for (int i=10; i<18; i++) {
+        for (int i = 10; i < 18; i++) {
             bb.put((byte) i);
         }
         System.out.println("After populating Data: ");

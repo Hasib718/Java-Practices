@@ -1,15 +1,20 @@
 package com.hasib.java.basic;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
+/*
+ * Created by S M Al Hasib on 7/23/20, 11:43 PM
+ * Copyright (c) 2020 . All rights reserved.
+ * Last modified 7/23/20, 11:42 PM
+ */
+
 public class Input {
-    public static int square(int n){
-        return n*n;
+    public static int square(int n) {
+        return n * n;
     }
 
     public static void main(String[] args) {
-	    Scanner scr  = new Scanner(System.in);
+        Scanner scr = new Scanner(System.in);
         System.out.println("Enter a Number: ");
         int a = scr.nextInt();
         System.out.println("Enter a another Number: ");

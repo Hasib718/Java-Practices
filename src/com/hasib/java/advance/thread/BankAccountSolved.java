@@ -4,14 +4,20 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.concurrent.TimeUnit;
 
+/*
+ * Created by S M Al Hasib on 7/23/20, 11:43 PM
+ * Copyright (c) 2020 . All rights reserved.
+ * Last modified 7/23/20, 11:42 PM
+ */
+
 public class BankAccountSolved {
     public static void main(String[] args) {
         BankAccountSync bankAccount = new BankAccountSync(100);
         DateTimeFormatter isoTimeFormatter = DateTimeFormatter.ISO_TIME;
 
         Thread depositThread = new Thread(() -> {
-            System.out.println(Thread.currentThread().getName()+
-                    " started at: "+ isoTimeFormatter.format(LocalDateTime.now()));
+            System.out.println(Thread.currentThread().getName() +
+                    " started at: " + isoTimeFormatter.format(LocalDateTime.now()));
             bankAccount.deposit(100);
         });
         depositThread.setName("Deposit Thread");

@@ -1,9 +1,15 @@
 package com.hasib.java.immediate.exception;
 
-class DataFetcher{
+/*
+ * Created by S M Al Hasib on 7/23/20, 11:43 PM
+ * Copyright (c) 2020 . All rights reserved.
+ * Last modified 7/23/20, 11:42 PM
+ */
+
+class DataFetcher {
     public String fetchDataFreomUrl(String url)
-        throws CheckedException{
-        if (url == null){
+            throws CheckedException {
+        if (url == null) {
             throw new CheckedException("Url Not Found");
         }
         String data = null;

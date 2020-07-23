@@ -1,9 +1,15 @@
 package com.hasib.java.immediate.oop.polymorphism;
 
+/*
+ * Created by S M Al Hasib on 7/23/20, 11:43 PM
+ * Copyright (c) 2020 . All rights reserved.
+ * Last modified 7/23/20, 11:42 PM
+ */
+
 class Shape {
     public String name;
 
-    public Shape(String name){
+    public Shape(String name) {
         this.name = name;
     }
 

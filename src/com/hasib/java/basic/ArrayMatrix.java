@@ -1,17 +1,21 @@
 package com.hasib.java.basic;
 
-import org.jetbrains.annotations.NotNull;
-
 import java.util.Random;
+
+/*
+ * Created by S M Al Hasib on 7/23/20, 11:43 PM
+ * Copyright (c) 2020 . All rights reserved.
+ * Last modified 7/23/20, 11:42 PM
+ */
 
 public class ArrayMatrix {
     Random random = new Random();
 
-    public int[][] random(int m, int n){
+    public int[][] random(int m, int n) {
         int[][] c = new int[m][n];
 
-        for (int i = 0; i < m; i++){
-            for (int j = 0; j < n; j++){
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
                 c[i][j] = random.nextInt(100);
             }
         }

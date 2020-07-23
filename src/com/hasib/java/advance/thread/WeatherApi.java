@@ -9,12 +9,19 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
-import java.util.*;
+import java.util.Iterator;
+import java.util.Map;
+
+/*
+ * Created by S M Al Hasib on 7/23/20, 11:43 PM
+ * Copyright (c) 2020 . All rights reserved.
+ * Last modified 7/23/20, 11:42 PM
+ */
 
 public class WeatherApi {
     public static void main(String[] args) {
         String cityName = "Dhaka";
-        String API = "https://api.openweathermap.org/data/2.5/weather?q="+cityName+"&appid=d99dd4dc1cfb79da396e3518073c3aec";
+        String API = "https://api.openweathermap.org/data/2.5/weather?q=" + cityName + "&appid=d99dd4dc1cfb79da396e3518073c3aec";
         String output = "";
 
         DownloadingTask downloadingTask = new DownloadingTask(API);

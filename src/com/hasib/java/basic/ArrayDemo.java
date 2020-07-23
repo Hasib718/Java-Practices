@@ -2,10 +2,16 @@ package com.hasib.java.basic;
 
 import java.util.Arrays;
 
+/*
+ * Created by S M Al Hasib on 7/23/20, 11:43 PM
+ * Copyright (c) 2020 . All rights reserved.
+ * Last modified 7/23/20, 11:42 PM
+ */
+
 public class ArrayDemo {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         int[] array1 = new int[10];
-        char array2[] = new char[10];
+        char[] array2 = new char[10];
         int[] array3 = {545, 3546, -45, 13, 6, 45, 21, 9, 101, 102};
         int[] Clone;
         String[] str = {"toufiq", "aadud"};
@@ -24,7 +30,7 @@ public class ArrayDemo {
         int[] array4 = new int[]{0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
 
         int[][] array2D_1 = new int[12][8];
-        int array2D_2[][] = new int[5][7];
+        int[][] array2D_2 = new int[5][7];
         int[][] array2D_3 = {{1, 2, 3}, {4, 5, 6}, {8, 9}};
         int[][] arrayOfArray = new int[3][];
         arrayOfArray[0] = new int[5];
