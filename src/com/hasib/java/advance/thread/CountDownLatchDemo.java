@@ -6,9 +6,9 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
 /*
- * Created by S M Al Hasib on 7/23/20, 11:43 PM
+ * Created by S M Al Hasib on 7/25/20, 3:57 AM
  * Copyright (c) 2020 . All rights reserved.
- * Last modified 7/23/20, 11:42 PM
+ * Last modified 7/24/20, 1:00 AM
  */
 
 public class CountDownLatchDemo {
@@ -26,7 +26,6 @@ public class CountDownLatchDemo {
         executorService.execute(tester);
 
         executorService.shutdown();
-        '-'
     }
 }
 
