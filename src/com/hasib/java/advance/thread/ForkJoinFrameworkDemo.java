@@ -1,16 +1,14 @@
 package com.hasib.java.advance.thread;
 
-import org.jetbrains.annotations.NotNull;
-
 import java.util.Random;
 import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.RecursiveTask;
 import java.util.stream.LongStream;
 
 /*
- * Created by S M Al Hasib on 7/25/20, 3:57 AM
- * Copyright (c) 2020 . All rights reserved.
- * Last modified 7/25/20, 3:57 AM
+ * Created by S M Al Hasib on 4/14/21, 3:01 AM
+ * Copyright (c) 2021 . All rights reserved.
+ * Last modified 4/14/21, 2:54 AM
  */
 
 public class ForkJoinFrameworkDemo {
@@ -65,7 +63,7 @@ class SumRecursiveTask extends RecursiveTask<Long> {
         }
     }
 
-    private @NotNull Long computeDirectly() {
+    private Long computeDirectly() {
         return LongStream.range(low, high + 1).sum();
     }
 }
